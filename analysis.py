@@ -49,7 +49,7 @@ print(interpretation)
 # Step 10: Save updated result
 data.to_csv("recognition_result.csv", index=False)
 
-# Step 11: Plot similarity score
+# Step 11: Plot similarity score result
 plt.bar(data["SampleID"], data["SimilarityScore"])
 plt.title("Face Recognition Similarity Score")
 plt.xlabel("Sample ID")
