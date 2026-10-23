@@ -22,7 +22,7 @@ print(round(accuracy * 100, 2), "%")
 print("\nRecognition Result:")
 print(data[["SampleID", "ActualIdentity", "PredictedIdentity", "SimilarityScore", "RecognitionStatus"]])
 
-# Step 6: Confusion matrix
+# Step 6: Confusion matrix calculation
 print("\nConfusion Matrix:")
 print(confusion_matrix(data["ActualIdentity"], data["PredictedIdentity"]))
 
